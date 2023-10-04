@@ -1,0 +1,7 @@
+import { Book } from "./book.model";
+
+export const books: Array<Book> = [
+    {title: "Design Patterns", author: "Erich Gamma et al", abstract: "Capturing a wealth of experience about the design of object-oriented software, four top-notch designers present a catalog of simple and succinct solutions to commonly occurring design problems. Previously undocumented, these 23 patterns allow designers to create more flexible, elegant, and ultimately reusable designs without having to rediscover the design solutions themselves."},
+    {title: "Learning Angular", author: "Aristeidis Bampakos et al", abstract: "Uncover Angular's potential for creating enterprise web applications—from setting up the environment to deployment—with the help of expert guidance, step-by-step explanations, and hands-on exercises"},
+    {title: "How Linux Works", author: "Brian Ward", abstract: `Unlike some operating systems, Linux doesn't try to hide the important bits from you—it gives you full control of your computer. But to truly master Linux, you need to understand its internals, like how the system boots, how networking works, and what the kernel actually does. In this third edition of the bestselling How Linux Works, author Brian Ward peels back the layers of this well-loved operating system to make Linux internals accessible. This edition has been thoroughly updated and expanded with added coverage of Logical Volume Manager (LVM), virtualization, and containers.`},
+]

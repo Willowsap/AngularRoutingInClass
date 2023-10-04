@@ -1,0 +1,15 @@
+<section class="wrapper">
+    <h1>Title: {{book?.title}}</h1>
+    <h1>Author: {{book?.author}}</h1>
+    <p>{{book?.abstract}}</p>
+
+    <section class="list">
+        <ul>
+            <li *ngFor="let book of books; let i=index"
+                [routerLink]="'/library/book/' + i">
+                <h1>Title: {{book.title}}</h1>
+                <h1>Author: {{book.author}}</h1>
+            </li>
+        </ul>
+    </section>
+</section>

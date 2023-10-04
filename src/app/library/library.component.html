@@ -1,0 +1,9 @@
+<section>
+    <ul>
+        <li *ngFor="let book of books; let i=index"
+            [routerLink]="'book/' + i">
+            <h1>Title: {{book.title}}</h1>
+            <h1>Author: {{book.author}}</h1>
+        </li>
+    </ul>
+</section>

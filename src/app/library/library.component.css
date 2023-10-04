@@ -1,0 +1,36 @@
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+}
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    text-align: left;
+    flex: 1;
+    background-color: rgb(110, 240, 255);
+    color: rgb(41, 41, 41);
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-bottom: 2%;
+    min-width: 400px;
+}
+
+li:hover {
+    background-color: rgb(77, 199, 213);
+    cursor: pointer;
+}
+
+h1 {
+    font-size: large;
+}

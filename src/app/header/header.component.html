@@ -1,0 +1,6 @@
+<header>
+    <a *ngFor="let section of pages"
+        [routerLink]="section.link"
+        routerLinkActive="activeLink"
+        [routerLinkActiveOptions]="{exact: true}">{{ section.name }}</a>
+</header>
